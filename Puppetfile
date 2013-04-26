@@ -33,3 +33,5 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "mongodb", "1.0.0"
