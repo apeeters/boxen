@@ -36,3 +36,4 @@ github "sudo",     "1.0.0"
 
 github "mongodb", "1.0.0"
 github "bash",    "1.1.0"
+github "osx",     "1.1.0"

@@ -73,6 +73,11 @@ GITHUBTARBALL
   specs:
     bash (1.1.0)
 
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.1.0)
+
 DEPENDENCIES
   boxen (= 1.2.0)
   dnsmasq (= 1.0.0)
@@ -89,3 +94,4 @@ DEPENDENCIES
   sudo (= 1.0.0)
   mongodb (= 1.0.0)
   bash (= 1.1.0)
+  osx (= 1.1.0)
