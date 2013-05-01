@@ -55,7 +55,6 @@ node default {
   include hub
   include nginx
   include nvm
-  include unrar
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -78,7 +77,8 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'unrar'
     ]:
   }
 
