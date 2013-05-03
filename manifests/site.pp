@@ -78,7 +78,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'unrar'
+      'unrar',
+      'mariadb'
     ]:
   }
 
