@@ -91,4 +91,5 @@ node default {
   include mongodb
   include bash
   include bash::completion
+  include java
 }
