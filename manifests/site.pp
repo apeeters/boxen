@@ -79,7 +79,8 @@ node default {
       'findutils',
       'gnu-tar',
       'unrar',
-      'mariadb'
+      'mariadb',
+      'tig'
     ]:
   }
 
