@@ -80,7 +80,8 @@ node default {
       'gnu-tar',
       'unrar',
       'mariadb',
-      'tig'
+      'tig',
+      'jetty'
     ]:
   }
 
