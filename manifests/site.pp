@@ -81,7 +81,8 @@ node default {
       'unrar',
       'mariadb',
       'tig',
-      'jetty'
+      'jetty',
+      'sbt'
     ]:
   }
 
