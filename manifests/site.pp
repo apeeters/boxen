@@ -82,7 +82,8 @@ node default {
       'mariadb',
       'tig',
       'jetty',
-      'sbt'
+      'sbt',
+      'sqlite'
     ]:
   }
 
