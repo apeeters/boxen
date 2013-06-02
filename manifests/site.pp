@@ -83,7 +83,8 @@ node default {
       'tig',
       'jetty',
       'sbt',
-      'sqlite'
+      'sqlite',
+      'wget'
     ]:
   }
 
