@@ -84,7 +84,8 @@ node default {
       'jetty',
       'sbt',
       'sqlite',
-      'wget'
+      'wget',
+      'nmap'
     ]:
   }
 
