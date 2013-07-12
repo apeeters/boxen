@@ -98,4 +98,5 @@ node default {
   include bash
   include bash::completion
   include java
+  include vagrant
 }
