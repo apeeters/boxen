@@ -85,7 +85,8 @@ node default {
       'sbt',
       'sqlite',
       'wget',
-      'nmap'
+      'nmap',
+      'ffmpeg'
     ]:
   }
 
