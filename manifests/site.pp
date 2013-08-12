@@ -104,4 +104,10 @@ node default {
   include bash::completion
   include java
   include vagrant
+
+  ruby::gem { "lolcommits for ${version}":
+    gem     => 'lolcommits',
+    ruby    => $'1.8.7',
+  }
+
 }
