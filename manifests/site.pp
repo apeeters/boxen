@@ -86,7 +86,8 @@ node default {
       'sqlite',
       'wget',
       'nmap',
-      'ffmpeg'
+      'ffmpeg',
+      'imagemagick'
     ]:
   }
 
