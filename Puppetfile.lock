@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.7)
+    vagrant (2.0.10)
 
 DEPENDENCIES
   autoconf (= 1.0.0)
@@ -123,5 +123,5 @@ DEPENDENCIES
   bash (= 1.1.0)
   osx (= 1.1.0)
   java (= 1.1.0)
-  vagrant (=2.0.7)
+  vagrant (= 2.0.10)
   xquartz (= 1.1.0)
