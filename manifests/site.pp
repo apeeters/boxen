@@ -110,4 +110,8 @@ node default {
     ruby    => '1.8.7',
   }
 
+  class { 'nodejs::global':
+    version => 'v0.10'
+  }
+
 }
