@@ -103,6 +103,11 @@ GITHUBTARBALL
   specs:
     vagrant (2.0.10)
 
+GITHUBTARBALL
+  remote: boxen/puppet-android
+  specs:
+    android (1.0.0)
+
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.1)
@@ -125,3 +130,4 @@ DEPENDENCIES
   java (= 1.1.0)
   vagrant (= 2.0.10)
   xquartz (= 1.1.0)
+  android (= 1.0.0)
