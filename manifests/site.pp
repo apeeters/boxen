@@ -116,4 +116,7 @@ node default {
 
   nodejs::module { 'bower': node_version => 'v0.10' }
 
+  include android::sdk
+  android::version { '17': }
+
 }
