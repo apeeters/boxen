@@ -90,7 +90,8 @@ node default {
       'wget',
       'nmap',
       'ffmpeg',
-      'imagemagick'
+      'imagemagick',
+      'watch'
     ]:
   }
 
