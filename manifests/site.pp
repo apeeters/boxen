@@ -91,8 +91,7 @@ node default {
       'nmap',
       'ffmpeg',
       'imagemagick',
-      'watch',
-      'openssl'
+      'watch'
     ]:
   }
 
