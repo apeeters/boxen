@@ -120,4 +120,6 @@ node default {
   include android::sdk
   android::version { '17': }
 
+  include openssl
+
 }
