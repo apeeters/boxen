@@ -92,7 +92,8 @@ node default {
       'ffmpeg',
       'imagemagick',
       'watch',
-      'maven'
+      'maven',
+      'svn2git'
     ]:
   }
 
