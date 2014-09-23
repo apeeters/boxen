@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.1.0)
+    java (1.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -145,7 +145,7 @@ DEPENDENCIES
   mongodb (= 1.0.0)
   bash (= 1.1.0)
   osx (= 1.1.0)
-  java (= 1.1.0)
+  java (= 1.7.0)
   vagrant (= 2.0.10)
   xquartz (= 1.1.0)
   android (= 1.0.0)
