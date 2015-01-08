@@ -107,10 +107,6 @@ node default {
   include java
   include vagrant
 
-  ruby_gem { "lolcommits for ${version}":
-    gem          => 'lolcommits'
-  }
-
   class { 'nodejs::global':
     version => 'v0.10'
   }
