@@ -109,7 +109,7 @@ node default {
 
   ruby_gem { "lolcommits for ${version}":
     gem     => 'lolcommits',
-    ruby    => '1.8.7',
+    ruby_version    => '1.8.7',
   }
 
   class { 'nodejs::global':
