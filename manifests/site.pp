@@ -106,7 +106,8 @@ node default {
   include vagrant
 
   ruby_gem { "librarian-puppet":
-    gem => 'librarian-puppet'
+    gem => 'librarian-puppet',
+    ruby_version => '2.1.0'
   }
 
   class { 'nodejs::global':
