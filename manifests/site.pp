@@ -69,7 +69,7 @@ node default {
   nodejs::version { 'v0.10': }
 
   # default ruby versions
-  ruby::version { '1.8.7-p358' }
+  ruby::version { '1.8.7-p358': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.2': }
 
