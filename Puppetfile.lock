@@ -126,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.10)
+    vagrant (3.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-android
@@ -158,6 +158,6 @@ DEPENDENCIES
   bash (= 1.1.0)
   osx (= 1.1.0)
   java (= 1.7.0)
-  vagrant (= 2.0.10)
+  vagrant (= 3.2.2)
   xquartz (= 1.2.1)
   android (= 1.0.0)
