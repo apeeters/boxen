@@ -103,7 +103,10 @@ node default {
   include bash
   include bash::completion
   include java
-  include vagrant
+
+  class { 'vagrant':
+    version => '1.7.2',
+  }
 
   ruby_gem { "librarian-puppet for 2.1.0":
     gem          => 'librarian-puppet',
