@@ -105,7 +105,7 @@ node default {
   include java
 
   class { 'vagrant':
-    version => '1.7.2',
+    version => '1.8.1',
   }
 
   ruby_gem { "librarian-puppet for 2.1.0":
