@@ -158,7 +158,10 @@ node default {
     version => '0.10'
   }
 
-  nodejs::module { 'bower': node_version => 'v0.10' }
+  npm_module { 'bower':
+    module       => 'bower',
+    node_version => 'v0.10',
+  }
 
   include android::sdk
   android::version { '17': }
