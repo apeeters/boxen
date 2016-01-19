@@ -155,7 +155,7 @@ node default {
   }
 
   class { 'nodejs::global':
-    version => 'v0.10'
+    version => '0.10'
   }
 
   nodejs::module { 'bower': node_version => 'v0.10' }
