@@ -140,6 +140,16 @@ node default {
     ruby_version => '2.1.2'
   }
 
+  ruby_gem { "json for 2.1.0":
+    gem          => 'json',
+    ruby_version => '2.1.0'
+  }
+
+  ruby_gem { "json for 2.1.2":
+    gem          => 'json',
+    ruby_version => '2.1.2'
+  }
+
   class { 'nodejs::global':
     version => 'v0.10'
   }
