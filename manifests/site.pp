@@ -67,6 +67,7 @@ node default {
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
+  nodejs::version { '4.4.5': }
 
   # default ruby versions
   ruby::version { '1.8.7-p358': }
