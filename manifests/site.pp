@@ -158,12 +158,12 @@ node default {
   }
 
   class { 'nodejs::global':
-    version => $nodejs_version,
+    version => $::nodejs_version,
   }
 
   npm_module { 'bower':
     module       => 'bower',
-    node_version => $nodejs_version,
+    node_version => $::nodejs_version,
   }
 
   include android::sdk
