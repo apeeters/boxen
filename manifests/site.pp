@@ -2,6 +2,8 @@ require boxen::environment
 require homebrew
 require gcc
 
+$nodejs_version = '4.4.3'
+
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
@@ -156,7 +158,7 @@ node default {
   }
 
   class { 'nodejs::global':
-    version => '4.4.3'
+    version => $nodejs_version
   }
 
   npm_module { 'bower':
