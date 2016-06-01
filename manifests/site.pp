@@ -161,7 +161,7 @@ node default {
 
   npm_module { 'bower':
     module       => 'bower',
-    node_version => '0.10',
+    node_version => '*',
   }
 
   include android::sdk
