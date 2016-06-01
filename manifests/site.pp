@@ -158,7 +158,7 @@ node default {
   }
 
   class { 'nodejs::global':
-    version => $nodejs_version
+    version => $nodejs_version,
   }
 
   npm_module { 'bower':
