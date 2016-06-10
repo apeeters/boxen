@@ -157,6 +157,16 @@ node default {
     ruby_version => '2.1.2'
   }
 
+  ruby_gem { "shenzhen for 2.1.0":
+    gem          => 'shenzhen',
+    ruby_version => '2.1.0'
+  }
+
+  ruby_gem { "shenzhen for 2.1.2":
+    gem          => 'shenzhen',
+    ruby_version => '2.1.2'
+  }
+
   class { 'nodejs::global':
     version => $::nodejs_version,
   }
