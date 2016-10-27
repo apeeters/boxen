@@ -111,8 +111,6 @@ node default {
   include bash::completion
   include java
 
-  java::update_version { '112': }
-
   class { 'vagrant':
     version => '1.8.1',
   }
