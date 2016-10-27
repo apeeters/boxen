@@ -109,9 +109,10 @@ node default {
   include mongodb
   include bash
   include bash::completion
-  include java
 
-  java::update_version { '112': }
+  class { 'java':
+    update_version => '112',
+  }
 
   class { 'vagrant':
     version => '1.8.1',
