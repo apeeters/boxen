@@ -2,7 +2,7 @@ require boxen::environment
 require homebrew
 require gcc
 
-$nodejs_version = '6.9.5'
+$nodejs_version = '6.4.0'
 
 Exec {
   group       => 'staff',
