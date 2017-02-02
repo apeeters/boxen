@@ -2,7 +2,7 @@ require boxen::environment
 require homebrew
 require gcc
 
-$nodejs_version = '4.4.3'
+$nodejs_version = '6.9.5'
 
 Exec {
   group       => 'staff',
@@ -70,6 +70,7 @@ node default {
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
   nodejs::version { '4.4.3': }
+  nodejs::version { $nodejs_version: }
 
   # default ruby versions
   ruby::version { '1.8.7-p358': }
