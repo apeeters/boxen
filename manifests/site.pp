@@ -103,6 +103,13 @@ node default {
     ]:
   }
 
+  package {
+    [
+      'libreoffice',
+    ]:
+    provider => 'brewcask',
+  }
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
