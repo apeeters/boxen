@@ -1,17 +1,17 @@
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.11.1)
+    boxen (3.12.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.7)
+    brewcask (0.0.10)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (2.0.2)
+    dnsmasq (2.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.11.0)
+    git (2.13.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -134,12 +134,12 @@ GITHUBTARBALL
     android (1.0.0)
 
 DEPENDENCIES
-  boxen (= 3.11.1)
-  brewcask (= 0.0.7)
-  dnsmasq (= 2.0.2)
+  boxen (= 3.12.0)
+  brewcask (= 0.0.10)
+  dnsmasq (= 2.0.3)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
-  git (= 2.11.0)
+  git (= 2.13.0)
   go (= 2.1.0)
   homebrew (= 2.1.0)
   hub (= 1.4.4)
