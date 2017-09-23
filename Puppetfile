@@ -66,7 +66,7 @@ github "xquartz",     "1.2.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
 
-github "mongodb", "1.0.0"
+github "mongodb", "1.5.0"
 github "bash",    "1.1.0"
 github "osx",     "1.1.0"
 github "java",    "1.7.0"
