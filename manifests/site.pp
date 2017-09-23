@@ -115,7 +115,6 @@ node default {
     target => $boxen::config::repodir
   }
 
-  include mongodb
   include bash
   include bash::completion
   include java
