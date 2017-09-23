@@ -2,4 +2,4 @@ ruby::version::env:
    Darwin:
      CFLAGS:   "-I%{::homebrew::config::installdir}/include -march=core2 -O3"
      LDFLAGS:  "-L%{::homebrew::config::installdir}/lib"
-nodejs::build::ensure: v2.5.4
+nodejs::build::ensure: v2.6.13
