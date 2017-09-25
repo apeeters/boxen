@@ -131,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
-    android (1.0.0)
+    android (1.6.0)
 
 DEPENDENCIES
   boxen (= 3.12.0)
@@ -160,4 +160,4 @@ DEPENDENCIES
   java (= 1.7.0)
   vagrant (= 3.3.4)
   xquartz (= 1.2.1)
-  android (= 1.0.0)
+  android (= 1.6.0)
