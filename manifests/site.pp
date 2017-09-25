@@ -71,6 +71,7 @@ node default {
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
   nodejs::version { '4.4.3': }
+  nodejs::version { '5.12.0': }
   nodejs::version { '6.11.3': }
   nodejs::version { $nodejs_version: }
 
